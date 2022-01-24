@@ -11,6 +11,8 @@
 		5975FC8C279B123A00C85503 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975FC8B279B123A00C85503 /* ContentView.swift */; };
 		5975FC8E279B123F00C85503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5975FC8D279B123F00C85503 /* Assets.xcassets */; };
 		5975FC91279B123F00C85503 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5975FC90279B123F00C85503 /* Preview Assets.xcassets */; };
+		5975FC98279D98D300C85503 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975FC97279D98D300C85503 /* ColorCircleView.swift */; };
+		5975FC9A279EF1D000C85503 /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975FC99279EF1D000C85503 /* ChangeColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5975FC8B279B123A00C85503 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5975FC8D279B123F00C85503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5975FC90279B123F00C85503 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5975FC97279D98D300C85503 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
+		5975FC99279EF1D000C85503 /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 		5975FC7D279B123900C85503 = {
 			isa = PBXGroup;
 			children = (
+				5975FC97279D98D300C85503 /* ColorCircleView.swift */,
+				5975FC99279EF1D000C85503 /* ChangeColorButton.swift */,
 				5975FC88279B123A00C85503 /* Svetoforio */,
 				5975FC87279B123A00C85503 /* Products */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5975FC98279D98D300C85503 /* ColorCircleView.swift in Sources */,
 				5975FC8C279B123A00C85503 /* ContentView.swift in Sources */,
 				5975FC8A279B123A00C85503 /* SvetoforioApp.swift in Sources */,
+				5975FC9A279EF1D000C85503 /* ChangeColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
